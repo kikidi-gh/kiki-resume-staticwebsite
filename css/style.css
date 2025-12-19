@@ -1,0 +1,59 @@
+/* Custom styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Additional custom styles can be added here as needed */
+
+/* Theme-specific styles */
+.bg-background-light {
+    background-color: #F3F4F6;
+}
+
+.dark .bg-background-dark {
+    background-color: #111827;
+}
+
+.text-text-main-light {
+    color: #111827;
+}
+
+.dark .text-text-main-dark {
+    color: #F9FAFB;
+}
+
+.text-text-muted-light {
+    color: #4B5563;
+}
+
+.dark .text-text-muted-dark {
+    color: #9CA3AF;
+}
+
+.bg-card-light {
+    background-color: #FFFFFF;
+}
+
+.dark .bg-card-dark {
+    background-color: #1F2937;
+}
+
+.text-primary {
+    color: #EAB308;
+}
+
+.hover\:text-primary:hover {
+    color: #EAB308;
+}
+
+.focus\:ring-primary:focus {
+    box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.5);
+}
+
+.border-gray-200 {
+    border-color: #e5e7eb;
+}
+
+.dark .border-gray-800 {
+    border-color: #1f2937;
+}
